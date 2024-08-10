@@ -1,0 +1,15 @@
+
+[ req ]
+prompt = no
+distinguished_name = req_distinguished_name
+req_extensions = int_ca_req
+
+[ req_distinguished_name ]
+C = US
+O = Trust Services, Inc.
+CN = www.trustservices.com
+
+[ int_ca_req ]
+basicConstraints = critical,CA:true,pathlen:0
+keyUsage = critical, digitalSignature, keyCertSign, cRLSign
+
