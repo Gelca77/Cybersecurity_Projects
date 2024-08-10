@@ -1,4 +1,5 @@
-# OpenSSL Certificate Authority (CA) Hierarchy Generation Project
+
+# Building a Secure Certificate Authority Hierarchy with OpenSSL
 
 Overview
 
