@@ -1,0 +1,1 @@
+An implementation of the Hangman game with a twist: the program cheats by minimizing word reveals to maximize difficulty.
